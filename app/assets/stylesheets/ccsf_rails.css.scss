@@ -6,10 +6,19 @@ $sans-serif: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $serif: Baskerville, Georgia, "Times New Roman", serif;
 $text-color: #444444;
 $link-color: #aaaa00;
-
+$background-color2: #ffffff;
 body
      {
        background-color: $background-color; color: $text-color
+     }
+p
+     {
+       background-color: $background-color2;
+     }
+h3
+     {
+       background-color: $background-color2;
+       color: blue;
      }
 .welcome
      {
